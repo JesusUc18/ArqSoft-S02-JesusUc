@@ -82,4 +82,17 @@ todo obliga a editar la misma clase.
 
 Esto viola OCP porque una clase debería estar abierta para extensión pero cerrada para modificación.
 
+---
+
+## 📌 Características
+
+- Juego de ahorcado en consola con dibujo ASCII.
+- Sistema de intentos (6 intentos).
+- Validación de letras repetidas.
+- Mensajes de victoria o derrota.
+- Opción de jugar nuevamente.
+- Refactorización aplicada usando principios **SOLID**.
+- Separación de responsabilidades en distintas clases.
+
+---
 
