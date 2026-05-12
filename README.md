@@ -96,3 +96,13 @@ Esto viola OCP porque una clase debería estar abierta para extensión pero cerr
 
 ---
 
+## 🧩 Cómo funciona el juego
+
+1. El programa inicia creando un repositorio de palabras.
+2. Se genera el motor del juego con una palabra aleatoria.
+3. La clase de UI muestra el tablero en consola.
+4. El jugador ingresa letras hasta ganar o perder.
+5. Se muestra el resultado final y se pregunta si desea jugar otra vez.
+
+---
+
