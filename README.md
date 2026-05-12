@@ -123,5 +123,15 @@ ArqSoft-S02-JesusUc/
 
 ---
 
+## 🛠️ Tecnologías utilizadas
+
+- **C#**
+- **.NET 10.0**
+- **Aplicación de Consola**
+- **Programación Orientada a Objetos**
+- **Principios SOLID**
+
+---
+
 
 
