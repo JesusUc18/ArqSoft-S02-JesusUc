@@ -106,3 +106,22 @@ Esto viola OCP porque una clase debería estar abierta para extensión pero cerr
 
 ---
 
+## 📁 Estructura del proyecto
+
+```
+
+ArqSoft-S02-JesusUc/
+├─ Program.cs # Punto de entrada del juego
+├─ Juego.cs # Versión inicial (clase dios)
+├─ MotorAhorcado.cs # Motor del juego (lógica sin Console)
+├─ ConsolaUI.cs # Interfaz de usuario en consola
+├─ IRepositorioPalabras.cs # Interfaz para obtener palabras
+├─ PalabrasEnMemoria.cs # Implementación de palabras en memoria
+└─ Ahorcado.csproj # Archivo del proyecto .NET
+
+```
+
+---
+
+
+
