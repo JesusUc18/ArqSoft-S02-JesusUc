@@ -51,5 +51,22 @@
             };
             Console.WriteLine(etapas[6 - _motor.IntentosRestantes]);
         }
+
+        public string PedirCategoria()
+        {
+            Console.WriteLine("\nElige una categoría:");
+            Console.WriteLine("  1 — Arquitectura");
+            Console.WriteLine("  2 — POO");
+            Console.WriteLine("  3 — .NET");
+            Console.Write("Opción: ");
+
+            return Console.ReadLine() switch
+            {
+                "1" => "Arquitectura",
+                "2" => "POO",
+                "3" => ".NET",
+                _ => "Arquitectura"
+            };
+        }
     }
 }

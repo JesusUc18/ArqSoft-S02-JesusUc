@@ -8,11 +8,16 @@ var opcion = Console.ReadLine();
 if (opcion == "1")
 {
     // --- LÓGICA DEL AHORCADO ---
-    var repositorio = new Ahorcado.PalabrasEnMemoria();
+    Console.WriteLine("=== AHORCADO ===");
+
+    // 1. UI temporal solo para pedir la categoría
+    var uiTemp = new Ahorcado.ConsolaUI(null!);  // motor aún no existe
+    string categoria = uiTemp.PedirCategoria();
+
+    // 2. Construir con la categoría elegida
+    var repositorio = new Ahorcado.PalabrasEnMemoria(categoria);
     var motor = new Ahorcado.MotorAhorcado(repositorio);
     var ui = new Ahorcado.ConsolaUI(motor);
-
-    Console.WriteLine("=== AHORCADO ===");
 
     while (!motor.Ganado() && !motor.Perdido())
     {
