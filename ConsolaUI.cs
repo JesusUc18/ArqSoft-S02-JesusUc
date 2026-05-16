@@ -7,6 +7,24 @@
         {
             _motor = motor;
         }
+
+        public string PedirCategoria(IEnumerable<string> categorias)
+        {
+            var lista = categorias.ToList();
+            Console.WriteLine("Elige una categoría:");
+            for (int i = 0; i < lista.Count; i++)
+                Console.WriteLine($"  {i + 1}. {lista[i]}");
+
+            while (true)
+            {
+                Console.Write("Opción: ");
+                if (int.TryParse(Console.ReadLine(), out int opcion) &&
+                    opcion >= 1 && opcion <= lista.Count)
+                    return lista[opcion - 1];
+
+                Console.WriteLine("Opción inválida, intenta de nuevo.");
+            }
+        }
         public void MostrarTablero()
         {
             Console.Clear();
