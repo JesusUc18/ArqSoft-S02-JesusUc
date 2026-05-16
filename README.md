@@ -22,6 +22,16 @@ El objetivo no es solamente que el juego funcione, sino entender por qué una bu
 
 ---
 
+## 📺 Capturas de pantalla
+
+Menu:
+<img width="1919" height="1034" alt="image" src="https://github.com/user-attachments/assets/ebc8acfa-f3e6-4904-b491-80eec74fda1e" />
+
+En juego:
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/64d4afe2-3981-4f4c-a02c-ea36b580fb58" />
+
+---
+
 ## 📄 Identificación de violaciones SOLID en "Juego.cs"
 
 En la primera versión del proyecto se implementó el juego en una sola clase llamada **Juego.cs**, la cual fue diseñada intencionalmente como una *clase dios*.  
